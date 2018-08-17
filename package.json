@@ -1,0 +1,22 @@
+{
+  "name": "egg-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "cov": "egg-bin cov",
+    "test": "egg-bin test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.10.0",
+    "egg-bin": "^4.8.1",
+    "egg-view-nunjucks": "^2.2.0",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "egg-mock": "^3.19.3"
+  }
+}
